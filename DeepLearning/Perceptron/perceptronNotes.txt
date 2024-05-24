@@ -1,0 +1,23 @@
+"""
+#. Perceptron ?
+-> Kinds of Algorithm.
+-> Mathematical model or mathematical function. 
+-> 
+
+Two steps of the machine learing:
+1. Training.
+2. Prediction. 
+
+
+Example:-
+Let's suppose, we have an student's datasets of 100 Points. 
+CGPA | IQ  | Placed
+78   | 7.8 | 1
+69   | 5.1 | 0
+
+Q. What if, there is more than two input columns ? what is the design of the perceptron at that time ?
+ans: 
+
+# Deep Learning is heavily inspired by the human nervous systems ?
+# weights: tells the feature importance. 
+"""
