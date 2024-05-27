@@ -1,0 +1,4 @@
+# tensorflow -> google. 
+# pytorch ->  facebook 
+# cntk -> 
+# keras -> keras is not a full fledge deep learning framework. It's just an nice wrapper on the top of the tensorflow, cntk, and theano. 

@@ -1,0 +1,50 @@
+Example:- 
+Let's suppose, I have an datasets:- 
+Simple, binary classification.
+Goal: To build the simple function or relationships between between features. 
+
+age     have_insurance
+23          0
+25          0
+47          1
+52          0
+46          1
+56          1
+55          0
+
+
+# sigmoid_function(z) = 1/(1+e^-z) where e = Euler's number ~ 2.71828
+Let's suppose z = 200 then 1/(1+2.71828^-200) ~ output will be almost close to 1. 
+Basically, Sigmoid function converts the input into the range of 0 to 1. 
+
+# Catch here is: 
+value < 0.5, Person will not buy the insurance.
+value > 0.5, Person will buy the insurance.
+
+step 1:
+y = m*x + b 
+In Regression, we always tries to find the value of the m and b. 
+Let's suppose, x = Age. 
+Now, above equation is y = m*Age + b. 
+
+Neuron is nothing but it is the combination of the Linear function and the activation function. 
+suppose here:
+output = (m*Age + b) + 1/(1+e^-z) --> 0.57
+where, Age: Input feature. 
+Above equation can be written as:
+y or output = (w1 * x1) + (w2 * x2) + (w3 * x3) + b 
+where, 
+x1 = Age,
+x2 = Income, 
+x3 = Education,
+and b = bias 
+And w1, w2 and w3. 
+
+Now, the above equation can be written as in generic way:
+
+y = Sum Of (w_i * x_i + b) from i = 0 to i = n.
+
+step 2:
+z = 1/(1+e^-z)
+
+
